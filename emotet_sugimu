@@ -1,6 +1,6 @@
 -- Epoch4 ---
 .zip(.doc) WINWORD -> cmd.exe -> PowerShell -> rundll32.exe (Run Emotet), https://app.any.run/tasks/674a7b7c-6837-49b9-9d69-cf5bf36525e2
-.zip(.xls) EXCEL -> cmd.exe -> PowerShell -> rundll32.exe (Run Emotet) https://app.any.run/tasks/2fa20760-9434-4e0d-8c43-df2f86b046
+.zip(.xls) EXCEL -> cmd.exe -> PowerShell -> rundll32.exe (Run Emotet) https://app.any.run/tasks/2f020760-9434-4e0d-8c43-0df2f80b046c/
 .doc WINWORD -> cmd.exe -> PowerShell -> rundll32.exe (Run Emotet) https://app.any.run/tasks/f4b3b1b7-7876-49ed-bee4-4f3dc02d3245/
 .xlsm EXCEL -> Excel4.0 -> rundll32.exe (Run Emotet) https://app.any.run/tasks/0991cbc2-07a2-416d-b3b0-d49660c7bfe5/
 link the email Link -> App Installer -> rundll32.exe (Run Emotet),
