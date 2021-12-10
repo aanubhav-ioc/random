@@ -8,4 +8,4 @@ link the email Link -> App Installer -> rundll32.exe (Run Emotet),
 .zip(.doc) WINWORD -> cmd.exe -> PowerShell -> rundll32.exe (Run Emotet), https://app.any.run/tasks/73aca99f-3dd6-4718-8f0d-7339b3eafe7e
 .doc EXCEL -> cmd.exe -> PowerShell -> rundll32.exe (Run Emotet), https://app.any.run/tasks/53807431-eddf-499b-90a0-8e9a8b42fb0c/
 .xls EXCEL -> cmd.exe -> PowerShell -> rundll32.exe (Run Emotet), https://app.any.run/tasks/4bca4cc7-bc24-41bc-8f91-3b9507900600
-.xlsm EXCEL -> Excel4.0 -> rundll32.exe (Run Emotet), https://app.any.run/tasks/1d4eb5d3-79db-4640-915b-0559c6bca8b2
+.xlsm EXCEL -> Excel4.0 -> rundll32.exe (Run Emotet), https://app.any.run/tasks/1d40b5d3-79db-4640-915b-0559c6bca8b2/
