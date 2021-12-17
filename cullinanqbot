@@ -1,0 +1,21 @@
+Email arrived from a sender IP vulnerable to proxyshell as per shodan 
+
+
+CVE-2021-34473	Microsoft Exchange Server Remote Code Execution Vulnerability
+CVE-2021-31206	Microsoft Exchange Server Remote Code Execution Vulnerability
+CVE-2021-34523	Microsoft Exchange Server Elevation of Privilege Vulnerability
+CVE-2021-31207	Microsoft Exchange Server Security Feature Bypass Vulnerability
+
+Malspam format 
+
+"I encountered some problems with redirecting you documents. So I re-send it again".
+
+URL in email hxxp://educomdigital.com/utut/culpafacerefugit 
+
+Downloads a zip file ( culpafacerefugit.zip) with (PP-194498433.xlsb) inside it 
+
+XLSB -> https://bazaar.abuse.ch/sample/ecee63b6a0b8a9daba189462a03c0373928c84ed737a1e34f2e1830f64b177ad/
+
+XLSB downloads xrv1.ocx / xrv2.ocx -> https://bazaar.abuse.ch/sample/d302a473d8f19884d38147d13ce87f54b897dad51fdc6490467bca62cc7ae937/
+
+Hatching behavior with cullinan tagging / persistence / av exclusion atttempt https://tria.ge/211217-gqj8radhfk/behavioral1
