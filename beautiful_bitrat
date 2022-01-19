@@ -1,0 +1,22 @@
+Victim first gets a customized malspam with a link which downloads a password protected zip, which will lead to a lnk shortcut
+
+LNK file https://bazaar.abuse.ch/sample/57b4c0e188628ce45847bcced903827767e4dd8b3dc90ed44ebbce1be508c6ae/
+
+This will download a MSHTA file https://bazaar.abuse.ch/sample/b2d0eb45c80b6d44a55c1fd40c447d78c7d69017de90731d935fd8e8817fa13d/
+
+This will download a PS1 script https://bazaar.abuse.ch/sample/d96de808e92e4d42e93180be95ec52fbe490c506cd839365e71cb7168df6bfbd/
+
+This will create payload on fly and finally one can see BITRAT C2 comms ( the string bitrat is literally in the pcap )
+
+
+https://app.any.run/tasks/0350b0cd-060a-43ae-99eb-75003e951b4f
+
+aspnet_compiler.exe will do the C2 as payload is compiled on fly
+
+C2 learnatallcost2.ddns.net
+
+mshta hosted on  https://boeisolutions.com/ssl/build/ExeToHta.hta
+ps1 hosted on https://boeisolutions.com/ssl/build/Server.txt
+
+Email subject WIRELESS CALLER>Voice-Message (58 Seconds) 
+Sender noreply@fameup.net
