@@ -1,0 +1,35 @@
+STAGE 1 Pub https://bazaar.abuse.ch/sample/d29b8d19d8eb0b484ea0d58c13643298c1bc5aae1df6cd80a5efdaa7d3420ff1/
+STAGE 2 BATCH FILE https://bazaar.abuse.ch/sample/6bb1027dee18e8500c765590c51fefa9210707bbc8755331a1df66f760a7e061/
+
+STAGE 3 HTA1 - This makes way for the next HTA as persistence
+Link http://www.unimed-corporated.com/cdt.html
+File https://bazaar.abuse.ch/sample/bd1e805f971e88e26f27d0f8fdd3d60ed431331b3d72e81480899333f4d9023d/
+
+STAGE 4 HTA2 
+Link http://www.unimed-corporated.com/microsoft.html 
+File https://bazaar.abuse.ch/sample/3aa220e72cbf51b49e6beb48d4dcdd63550add6e0a108a849c15d5f802a20412/
+
+STAGE 5 HTA leads to download a fake image which is actually a powershell script to compile and perfrom C2 via MSBUILD
+
+PS Script 
+
+File https://bazaar.abuse.ch/sample/f821a0ba5298426d3173abcebc19a31aaa2158837367abc363a871cb0c97aaf4/
+ASCNYCRAT config and behavior https://tria.ge/220324-g4xe8sdca8 
+Link https://unimed-corporated.com/novodc.jpg
+
+Payload on fly, MSBUILD does DDNS C2 connections.
+
+
+putha.duckdns.org
+warzonecdt.duckdns.org
+googledrives.ddns.net
+googleservice64.ddns.net
+cdtpitbull.hopto.org
+cdtopicadasgalaxias.ddns.net
+111234cdt.ddns.net
+
+
+
+More ref https://app.any.run/tasks/d186095a-5c53-4a3c-a47b-8d8404853bea
+Atrribution [EXTERNAL] - https://blog.talosintelligence.com/2021/08/rat-campaign-targets-latin-america.html
+
