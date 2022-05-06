@@ -6,3 +6,5 @@ Zip archive - 	3a772b30b56b1b0a65382a1ecf5100aad1baf3558b81bf989621fc8931ec4a52 
 Bat file - ad21daa38d2105a4709717d1efffaee94796641111f74c9658f6b2587c2ef03e
 Powershell - ac257146ada3db7bf64f3493bde332c50b99ef90825ac37699fc0562b61d6a78
 Lazyscripter APT infrastructure domain (unchanged) - http://hpsj(.firewall-gateway(.net/hpjs.php
+
+BATCH file after de-obfuscation ( thanks @LedTech3 ) - https://bazaar.abuse.ch/sample/7edc5e3677b8ad565be4058e736c6ec6f48654dadb97d100a7a094e539b27ac6/
