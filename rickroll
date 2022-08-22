@@ -1,2 +1,1 @@
-#This just opens Rick Roll video
-Start-Process Chrome "https://www.youtube.com/watch?v=GtL1huin9EE"
+Start-Process Chrome 'https://www.youtube.com/watch?v=GtL1huin9EE'
