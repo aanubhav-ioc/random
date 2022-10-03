@@ -1,0 +1,10 @@
+Malicious google advertisement link - https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjTlfCVx8P6AhXCMysKHRXaCywYABAAGgJzZg&ohost=www.google.com&cid=CAASJeRoS6nFtk5752oegXpLCshqs_YUZpYQxD2scljg_jyRj49E1UM&sig=AOD64_2jpYmgIa0u9bxpTzAIQvFK8hloNQ&q&adurl&ved=2ahUKEwj7jeuVx8P6AhXxaGwGHSInBxcQ0Qx6BAgEEAE
+This leads to https://sites.google.com/100amps.com/harmfkhcn/vdgmgshqj
+Pressing download leads to https://download-wsa.org/WhatsApp
+The zip has 0x00 bombing. After unzip it becomes 700 MB+ and has usuall PowerShell sleep.
+https://bazaar.abuse.ch/sample/7379bbd5a1cd0eb22a5dadc206074e2fc053692cd1e665cf569ddf9fa3b3fbcc/
+
+Redline info
+
+Botnet ID WS-30
+C2 38.91.100.57:32750
